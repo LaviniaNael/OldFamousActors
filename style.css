@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container h2 {
+    color: rgb(141, 32, 117);
+    margin-top: 15%;
+    font-size: 28px;
+    text-align: center;
+}
+
+body[id="login"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(bg/newbg.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin-top: 60px;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    justify-items: center;
+    border-radius: 5%;
+    border: 2px solid;
+    border-color: rgb(241, 234, 235);
+    box-shadow: 0 5px 10px rgba(87, 40, 88);
+}
+
+.inputbox {
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    padding: 4%;
+    width: 350px;
+    font-size: 15px;
+    border-radius: 60px;
+    border-style: solid;
+    background: rgba(244, 246, 253);
+}
+
+.rememberme {
+    color: rgb(141, 32, 117);
+}
+
+.rememberme a {
+    margin-left: 25%;
+    color: rgb(141, 32, 117);
+}
+
+input[type=submit] {
+    margin-top: 40px;
+    margin-left: 118px;
+    width: 35%;
+    padding: 3%;
+    border: 2px rgb(117, 6, 89);
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(141, 32, 117);
+    background-color: rgba(248, 181, 226, 0.781);
+}
+
+header h1 {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(68, 20, 20);
+}
+
+header {
+    width: 40%;
+    margin-left: 34%;
+}
+
+#page2 {
+    background: url("bg/bg3.jpg");
+    background-size: cover;
+    width: 95%;
+    margin-bottom: 5%;
+}
+
+#page2 p {
+    font-size: 19px;
+    width: 75%;
+    margin-left: 4%;
+}
+
+#page2 h2 {
+    margin-left: 4%;
+    font-style: oblique;
+    color: rgb(63, 19, 6);
+
+}
+
+#page2 ul {
+    font-size: 18px;
+    margin-left: 6%;
+    color: rgb(63, 19, 6);
+}
+
+.portrait {
+    border-radius: 15px;
+    box-shadow: 10px 0 10px rgba(63, 19, 6, 0.61);
+    border: 2px rgb(150, 137, 143);
+    border-style: groove;
+}
+
+.knownfor h3,
+h4 {
+    margin-left: 4%;
+    font-size: 20px;
+}
+
+#page2 h4 {
+    font-size: 19px;
+}
+
+.knownfor p {
+    color: rgb(63, 19, 6);
+}
